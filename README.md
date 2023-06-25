@@ -6,15 +6,13 @@ Dicas sobre requisitos contábeis, quetionamentos e orientações baseados em In
       pela openAi  - ChatGPT.<br>
       O material aqui transcrito não foi gerado para fins comerciais, não possuindo finalidade 
         de lucro. Sua elaboração é destinado somente para fins de aprendizado e estudo, em forma 
-        de colaboração, servindo como orientação adicional para cursos. 
-        
-        Linguagens abordadas na elaboração foram: html e css3.
+        de colaboração, servindo como orientação adicional para cursos. Linguagens abordadas na elaboração foram: html e css3.
         Todos as orientações e links de origem e conclusão para elaboração do material foi feito
         em pesquisas a diversos sites, utilização de IA (ChatGPT) cujas referências estão contidas no próprio material.
 
 
 <h7  style="color: lightblue; text-align: center;"> Endereço de acesso da página no Git: 
-	 <a href="https://irae-cesar-brandao.github.io/softhard_skills_contabil/  "  style="color: greenyellow;" target="_blank"> 
+	 <a href="[https://irae-cesar-brandao.github.io/softhard_skills_contabil/ ](https://irae-cesar-brandao.github.io/softhard_skills_contabil/) "  style="color: greenyellow;" target="_blank"> 
 	https://irae-cesar-brandao.github.io/softhard_skills_contabil/
 	</a></h7> 
  
