@@ -1,0 +1,150 @@
+
+html> body{
+
+  background-image: url("img1.jpg");
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: rgb(238, 233, 233);
+}
+
+
+#sky {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+
+  background: repeating-linear-gradient(
+      pink 2px,
+      transparent 3px,
+      transparent 30px
+    ),
+    repeating-linear-gradient(90deg, pink 2px, transparent 3px, transparent 40px)
+      10px 0;
+  filter: drop-shadow(0 0 1px magenta) drop-shadow(0 0 3px magenta)
+    drop-shadow(0 0 7px cyan);
+  animation: move 10s linear infinite;
+  opacity: 0.2;
+}
+
+
+h1 {
+  color: transparent;
+  font-family: "Russo One", sans-serif;
+  text-transform: uppercase;
+  font-size: 5em;
+  transform: translatey(25px);
+  background: linear-gradient(
+    cornflowerblue 30%,
+    white,
+    darkmagenta 60%,
+    cornflowerblue 100%
+  );
+  background-size: contain;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 1px silver;
+  filter: drop-shadow(5px 5px 1px black) drop-shadow(1px 1px 1px magenta);
+  animation: bg-shift 0.5s ease-in-out infinite alternate;
+}
+
+h2 {
+  color: white;
+  font-family: "Yellowtail", cursive;
+  font-weight: 100;
+  font-size: 4em;
+  transform: translatey(-10px) rotatez(-5deg);
+  text-shadow: 0 0 3px magenta, 0 0 7px magenta, 0 0 15px black, 0 0 15px black;
+  animation: hover 1s ease-in-out infinite;
+}
+
+
+h2 {
+  color: white;
+  font-family: "Yellowtail", cursive;
+  font-weight: 100;
+  font-size: 4em;
+  transform: translatey(-10px) rotatez(-5deg);
+  text-shadow: 0 0 3px magenta, 0 0 7px magenta, 0 0 15px black, 0 0 15px black;
+  animation: hover 1s ease-in-out infinite;
+}
+
+@keyframes move {
+  to {
+    background-position-y: 2000px;
+  }
+}
+@keyframes bg-shift {
+  0% {
+    background-position: 0 -25px;
+  }
+  100% {
+    background-position: 0 25px;
+  }
+}
+
+
+
+h4 {
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 
+      	1px -1px 0 #2f5d87,
+      	2px -2px 0 #2e5a83, 
+      	3px -3px 0 #2d5880;
+
+}
+
+h5{
+    	color: #fff;
+    	font-size: 20px;
+    	font-family: sans-serif;
+    	font-weight: italic;
+   	text-align: justify;
+    	text-shadow: 0 0 10px black;
+	margin-top: 5px;
+	margin-right: 10px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+}
+
+h6{
+		background-color: rgb(116, 109, 103);
+    	color: #c3ab55;
+    	font-size: 16px;
+    	font-family: sans-serif;
+    	font-weight: italic;
+   	text-align: justify;
+    	text-shadow: 0 0 10px black;
+	margin-top: 5px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+h7{
+	color: rgb(161, 219, 44);
+  	font-size: 10px;
+  	font-weight: bold;
+ 	text-align: center;
+}
+
+/* ESTILIZANDO AS IMAGENS */	    
+#pineal {
+         border-radius: 400px;
+}
+
+	    
+/* AJUSTANDO A IMAGEM AO TAMANHO DA JANELA*/
+@media only screen and (max-width: 480px) {
+  img {
+    width: 90%;
+  }
+}
+
+table, th, td {
+		border: 1px solid black;
+	
+}
+
